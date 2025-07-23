@@ -167,5 +167,6 @@
   /* Footer Section */
   .footer_content {
     flex-direction: column;
+    gap: 0;
   }
 }
