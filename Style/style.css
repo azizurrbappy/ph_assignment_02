@@ -157,7 +157,7 @@ span {
 
 /* Product Gallery */
 .product_sec {
-  margin-bottom: 5.355rem;
+  margin-bottom: 13.23rem;
 }
 
 .products_gallery {
@@ -198,4 +198,37 @@ span {
 .product .btn {
   border: none;
   width: 100%;
+}
+
+/* Flower & Plants Lover */
+.fstore {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3.78rem;
+}
+
+.trust_badge {
+  position: relative;
+}
+
+.trust_badge img {
+  position: absolute;
+  top: -120px;
+  right: -90px;
+  width: 286px;
+}
+
+.fstore_right h2 {
+  font-size: 3.15rem;
+  font-weight: 700;
+  margin-bottom: 1.26rem;
+}
+
+.fstore_right ul li {
+  list-style-type: disc;
+  font-size: 1.386rem;
+  font-weight: 400;
+  color: var(--text-color);
+  margin-bottom: 20px;
 }

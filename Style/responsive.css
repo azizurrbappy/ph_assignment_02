@@ -11,7 +11,8 @@
 
   /* Box Width */
   header,
-  .product_sec {
+  .product_sec,
+  .fstore_sec {
     width: 90%;
   }
 
@@ -59,11 +60,43 @@
   }
 
   /* Product Gallery */
+  .product_sec {
+    margin-bottom: 40px;
+  }
+
   .product {
     width: 44%;
   }
 
   .sec_description br {
     display: none;
+  }
+
+  /* Flower Store */
+  .fstore {
+    flex-direction: column;
+    justify-content: center;
+    gap: 18px;
+  }
+
+  .trust_badge {
+    display: none;
+  }
+
+  .fstore_left img {
+    width: 100%;
+  }
+
+  .fstore_right {
+    width: 90%;
+    text-align: left;
+  }
+
+  .fstore_right h2 {
+    font-size: 24px;
+  }
+
+  .fstore_right ul li {
+    font-size: 14px;
   }
 }
