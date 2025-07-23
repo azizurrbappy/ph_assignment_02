@@ -1,0 +1,151 @@
+:root {
+  --primary-color: #e95a08;
+  --black-color: #000000;
+  --white-color: #ffffff;
+  --text-color: rgba(0, 0, 0, 0.5);
+  --primary-font: 'Inter', sans-serif;
+  --sec-font: 'Noto Serif', serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: var(--primary-font);
+  margin-top: 30px;
+  background-color: rgb(245, 248, 255);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--sec-font);
+  font-size: 3.15rem;
+  font-weight: 700;
+  color: var(--black-color);
+}
+
+p,
+a,
+span,
+button {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--text-color);
+}
+
+/* Common Style */
+.box_center {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.sec_head {
+  text-align: center;
+}
+
+.sec_title {
+  font-size: 3.15rem;
+  font-weight: 700;
+  color: var(--black-color);
+  margin-bottom: 1rem;
+}
+
+.sec_title span {
+  color: var(--primary-color);
+}
+
+.btn {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--white-color);
+  background-color: var(--primary-color);
+  padding: 19px 0;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site_logo img {
+  width: 135px;
+  height: 82px;
+}
+
+.nav_menu {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav_menu ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 48px;
+}
+
+.nav_menu a {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+.nav_menu li a:hover {
+  color: var(--black-color);
+  transition: 0.4s;
+}
+
+.nav_menu .active {
+  color: var(--black-color);
+}
+
+.cart_btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cart_btn a {
+  color: var(--black-color);
+}
+
+/* Banner Section */
+.banner_sec {
+  margin: 120px 0;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding-top: 106px;
+}
+
+.banner_left h1,
+span {
+  font-size: 3.78rem;
+  font-weight: 700;
+  color: var(--black-color);
+  line-height: 4.977rem;
+  margin-bottom: 13px;
+}
+
+.banner_left h1 span {
+  color: var(--primary-color);
+}
+
+.banner_left p {
+  font-size: 1.386rem;
+}

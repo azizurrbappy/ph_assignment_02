@@ -1,0 +1,46 @@
+/* Responsive For Mobile or Small Device */
+@media screen and (max-width: 40rem) {
+  /* Box Width */
+  header {
+    padding: 0 1rem;
+  }
+
+  /* Navbar */
+  .site_logo img {
+    width: 3.969rem;
+    height: 2.394rem;
+  }
+
+  .nav_menu ul {
+    display: none;
+  }
+
+  /* Banner */
+  .banner_sec {
+    margin-top: 28px;
+    margin-bottom: 65px;
+  }
+
+  .banner {
+    flex-direction: column-reverse;
+    justify-content: center;
+    gap: 28px;
+    padding: 0;
+  }
+
+  .banner_right img {
+    position: relative;
+    right: -25px;
+    width: 100%;
+  }
+
+  .banner_left h1,
+  span {
+    font-size: 1.512rem;
+    line-height: 2.079rem;
+  }
+
+  .banner_left p {
+    font-size: 1rem;
+  }
+}
