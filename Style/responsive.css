@@ -1,11 +1,25 @@
 /* Responsive For Mobile or Small Device */
 @media screen and (max-width: 40rem) {
+  /* Common CSS */
+  .sec_title {
+    font-size: 1.512rem;
+  }
+
+  .sec_description {
+    font-size: 1rem;
+  }
+
   /* Box Width */
-  header {
-    padding: 0 1rem;
+  header,
+  .product_sec {
+    width: 90%;
   }
 
   /* Navbar */
+  .navbar {
+    width: 100%;
+  }
+
   .site_logo img {
     width: 3.969rem;
     height: 2.394rem;
@@ -30,7 +44,7 @@
 
   .banner_right img {
     position: relative;
-    right: -25px;
+    right: -5%;
     width: 100%;
   }
 
@@ -42,5 +56,14 @@
 
   .banner_left p {
     font-size: 1rem;
+  }
+
+  /* Product Gallery */
+  .product {
+    width: 171px;
+  }
+
+  .sec_description br {
+    display: none;
   }
 }
