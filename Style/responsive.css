@@ -11,10 +11,10 @@
 
   /* Box Width */
   header,
+  footer,
   .product_sec,
   .fstore_sec,
-  .offer_sec,
-  .newslatte_sec {
+  .offer_sec {
     width: 90%;
   }
 
@@ -162,5 +162,10 @@
 
   .newslatter #subscribe {
     padding: 15px 12px;
+  }
+
+  /* Footer Section */
+  .footer_content {
+    flex-direction: column;
   }
 }

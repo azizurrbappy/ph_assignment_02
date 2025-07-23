@@ -389,3 +389,39 @@ span {
   position: relative;
   right: 10px;
 }
+
+/* Footer */
+.footer_content {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 50px 0;
+}
+
+.footer_logo {
+  width: 359px;
+}
+
+.footer_logo img {
+  margin-bottom: 1rem;
+}
+
+.footer_menu ul li {
+  color: var(--text-color);
+  margin-bottom: 32px;
+}
+
+.useful_link ul li {
+  color: var(--text-color);
+  margin-bottom: 32px;
+}
+
+.social_media img {
+  width: 36px;
+  height: 36px;
+}
+
+.social_media {
+  display: flex;
+  gap: 1.512rem;
+}
