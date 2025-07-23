@@ -76,6 +76,14 @@ button {
   padding: 19px 0;
 }
 
+.black_bg {
+  border-radius: 14px;
+  background-color: #0000007d;
+  padding: 65px 49px;
+  width: 366px;
+  height: 206px;
+}
+
 /* Navbar */
 .navbar {
   display: flex;
@@ -201,6 +209,10 @@ span {
 }
 
 /* Flower & Plants Lover */
+.fstore_sec {
+  margin-bottom: 133px;
+}
+
 .fstore {
   display: flex;
   justify-content: space-between;
@@ -231,4 +243,111 @@ span {
   font-weight: 400;
   color: var(--text-color);
   margin-bottom: 20px;
+}
+
+/* Offer Section */
+.offer_sec {
+  margin-bottom: 120px;
+}
+
+.offers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 28px;
+}
+
+.offer_sec .sec_head {
+  margin-bottom: 121px;
+}
+
+.offers_left {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.offer60 {
+  border-radius: 14px;
+  width: 366px;
+  height: 206px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../Assets/deal-bloom.png);
+}
+
+.offer60 h5 {
+  font-size: 1.26rem;
+  font-weight: 700;
+  color: var(--white-color);
+  margin-bottom: 19px;
+}
+
+.offer60 a {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--white-color);
+  text-decoration: underline;
+}
+
+.offer30 {
+  border-radius: 14px;
+  width: 366px;
+  height: 206px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../Assets/deal-ana.png);
+}
+
+.offer30 h5 {
+  font-size: 1.26rem;
+  font-weight: 700;
+  color: var(--white-color);
+  margin-bottom: 19px;
+}
+
+.offer30 a {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--white-color);
+  text-decoration: underline;
+}
+
+.offer25 {
+  border-radius: 14px;
+  width: 753px;
+  height: 423.13px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../Assets/deal-zabo.png);
+}
+
+.offer25 .black_bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.offer25 h3 {
+  font-size: 2.52rem;
+  font-weight: 700;
+  color: var(--white-color);
+  margin-bottom: 19px;
+}
+
+.offer25 a {
+  font-size: 1.764rem;
+  font-weight: 600;
+  color: var(--white-color);
+  text-decoration: underline;
 }
