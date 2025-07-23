@@ -351,3 +351,41 @@ span {
   color: var(--white-color);
   text-decoration: underline;
 }
+
+/* News Latter Section */
+.newslatte_sec {
+  height: 533px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../Assets/news-letter-bg.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.newslatter h3 {
+  font-size: 3.15rem;
+  font-weight: 700;
+  color: var(--white-color);
+  margin-bottom: 23px;
+}
+
+.newslatter #email {
+  width: 40.572rem;
+  padding: 15px 20px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.newslatter #subscribe {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--white-color);
+  border: none;
+  padding: 15px 53px;
+  background-color: var(--primary-color);
+  position: relative;
+  right: 10px;
+}

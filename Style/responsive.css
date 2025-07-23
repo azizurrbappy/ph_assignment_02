@@ -13,7 +13,8 @@
   header,
   .product_sec,
   .fstore_sec,
-  .offer_sec {
+  .offer_sec,
+  .newslatte_sec {
     width: 90%;
   }
 
@@ -143,5 +144,23 @@
     font-weight: 600;
     color: var(--white-color);
     text-decoration: underline;
+  }
+
+  /* News Latter */
+  .newslatte_sec {
+    height: 275px;
+  }
+
+  .newslatter h3 {
+    font-size: 1.26rem;
+    font-weight: 700;
+  }
+
+  .newslatter #email {
+    width: 218px;
+  }
+
+  .newslatter #subscribe {
+    padding: 15px 12px;
   }
 }
